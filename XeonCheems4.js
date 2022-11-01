@@ -3010,35 +3010,32 @@ replay('النجاح في إيقاف تشغيل الرد التلقائي في �
   await XeonBotInc.sendButtonText(m.chat, buttonswlcm, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
   }
   }
-  break
-case 'antitoxic': {
-   if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-if (!m.isGroup) return replay(mess.group)
-if (!isBotAdmins) return replay(mess.botAdmin)
-if (!isAdmins && !isCreator) return replay(mess.admin)
+case 'الشتايم': case 'السب': {
+if (!m.isGroup) return m.reply(mess.group)
+if (!isBotAdmins) return m.reply(mess.botAdmin)
+if (!isAdmins && !isCreator) return m.reply(mess.admin)
 if (args[0] === "on") {
-if (antiToxic) return replay('بالفعل نشط!! ')
+if (antiToxic) return m.reply('تم تفعيله بالفعل')
 nttoxic.push(from)
-replay('النجاح في تشغيل مضاد السموم في هذه المجموعة')
+m.reply('النجاح في تشغيل مضاد السب في هذه المجموعة')
 var groupe = await XeonBotInc.groupMetadata(from)
 var members = groupe['participants']
 var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️تحذير⚠️ 」\`\`\`\n\nلا يُسمح لأحد باستخدام كلمات سيئة في هذه المجموعة ، ومن يستخدمها سيتم طرده على الفور!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️تحذير⚠️ 」\`\`\`\n\nلا يُسمح لأحد باستخدام كلمات سيئة في هذه المجموعة ، ومن يستخدمها سيتم ركله على الفور!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
-if (!antiToxic) return replay('تم إلغاء تنشيطه بالفعل')
+if (!antiToxic) return m.reply('تم إلغاء تنشيطه بالفعل')
 let off = nttoxic.indexOf(from)
 nttoxic.splice(off, 1)
-replay('النجاح في إيقاف مضادات السموم في هذه المجموعة')
+m.reply('النجاح في إيقاف مضادات السب في هذه المجموعة')
 } else {
-  let buttonsnttoxci = [
+  let buttonsnttoxic= [
   { buttonId: `${command} on`, buttonText: { displayText: 'فتح' }, type: 1 },
   { buttonId: `${command} off`, buttonText: { displayText: 'قفل' }, type: 1 }
   ]
-  await XeonBotInc.sendButtonText(m.chat, buttonsnttoxic, `Please click the button below\n\nOn to enable\nOff to disable`, `${global.botname}`, m)
+  await XeonBotInc.sendButtonText(m.chat, buttonsnttoxic, `اختار من الزر\n\nفتح\nقفل`, `${global.botname}`, m)
   }
   }
   break
