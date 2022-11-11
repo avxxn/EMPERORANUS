@@ -54,23 +54,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['201025663589'] //ur owner number
-global.ownername = "𝑴𝑬𝑮𝑶🐼🍷 ٫" //ur owner name
-global.ytname = "YT: 𝑴𝑬𝑮𝑶❤️" //ur yt chanel name
-global.socialm = "GitHub: 𝑴𝑬𝑮𝑶❤️" //ur github or insta name
+global.vcardowner = ['967771160204'] //ur owner number
+global.ownername = "◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢ ٫" //ur owner name
+global.ytname = "YT: الامبراطور انوس " //ur yt chanel name
+global.socialm = "GitHub: ◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢" //ur github or insta name
 global.location = "Africa, Egypt, Cairo" //ur location
 
 //bot bomdy 
-global.owner = ['201025663589']
-global.ownertag = '201025663589' //ur tag number
-global.botname = '𝑴𝑬𝑮𝑶 𝑩𝑶𝑻🐼🍷 ٫' //ur bot name
-global.linkz = "https://www.facebook.com/profile.php?id=100078809899280" //your theme url which will be displayed on whatsapp
-global.websitex = "https://www.facebook.com/profile.php?id=100078809899280" //ur website to be displayed
-global.botscript = 'https://chat.whatsapp.com/LOtnaqbxiHU7A0T5RyTtfV' //script link
-global.reactmoji = "🌚" //ur menu react emoji
-global.themeemoji = "🌞" //ur theme emoji
-global.packname = "⍣ميجو يروحي⍣" //ur sticker watermark packname
-global.author = "⍣01025663589⍣" //ur sticker watermark author
+global.owner = ['967771160204']
+global.ownertag = '967771160204' //ur tag number
+global.botname = '◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢ ٫' //ur bot name
+global.linkz = "https://api.whatsapp.com/send?phone=+967771160204" //your theme url which will be displayed on whatsapp
+global.websitex = "https://api.whatsapp.com/send?phone=+967771160204" //ur website to be displayed
+global.botscript = 'https://youtu.be/Ligaee2E-Hc' //script link
+global.reactmoji = "🦇" //ur menu react emoji
+global.themeemoji = "👻" //ur theme emoji
+global.packname = "⍣ الامبراطور انوس ⍣" //ur sticker watermark packname
+global.author = "⍣967771160204⍣" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -105,7 +105,7 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'تم يروحي ✓',
+    success: 'تم ياورع ✓',
     admin: 'هذه الميزه للرجاله المشرفين,استرجل وجرب مره تانيه!! ',
     botAdmin: 'يجب أن يكون البوت مسؤولاً أولاً!',
     owner: 'هذه الميزة للمالك فقط!',
