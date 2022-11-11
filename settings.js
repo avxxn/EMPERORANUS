@@ -67,7 +67,7 @@ global.botname = '◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢ ٫' //u
 global.linkz = "https://api.whatsapp.com/send?phone=+967771160204" //your theme url which will be displayed on whatsapp
 global.websitex = "https://api.whatsapp.com/send?phone=+967771160204" //ur website to be displayed
 global.botscript = 'https://youtu.be/Ligaee2E-Hc' //script link
-global.reactmoji = "🦇" //ur menu react emoji
+global.reactmoji = "🙂" //ur menu react emoji
 global.themeemoji = "👻" //ur theme emoji
 global.packname = "⍣ الامبراطور انوس ⍣" //ur sticker watermark packname
 global.author = "⍣967771160204⍣" //ur sticker watermark author
