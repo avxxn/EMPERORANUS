@@ -1,10 +1,10 @@
 
 
-<h1 align="center">⚜️ᗷOT ᗴᒪᘜᗩᘔᗩᖇ⚜️<br></h1>
+<h1 align="center">⚜️👻منصه الامبراطور انوس 👻⚜️<br></h1>
 <p align="center">
-<img src="https://telegra.ph/file/9d09a00e6c16ca29eead1.jpg" alt="animated" width="540" height="280" />
+<img src="https://telegra.ph/file/1592262447c5ce8714b60.jpg" alt="animated" width="540" height="280" />
 </p>
-
+## ◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍『♗』𝘼𝙉𝙐𝙎◢「⚜️」
 <p align="center">
 Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
